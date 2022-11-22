@@ -1,0 +1,234 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(168, 227, 198);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(95, 109, 120);
+    min-height: 50px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h2{
+    color: rgb(28, 75, 75);
+}
+
+.content h3{
+    color: rgb(28, 75, 75);
+}
+
+.content p{
+    color: rgb(28, 75, 75);
+}
+
+.contentinicio {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(118, 155, 143);
+    min-height: 100px;
+}
+
+/* MODIFICAÇÕES */
+.titulo img{
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 120px;
+
+    
+    
+}
+h1 {
+    color:  rgb(150, 209, 181);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(67, 84, 96);
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    padding: 12px;
+    border: 0px outset rgba(204, 204, 204, 0.493);
+ }
+ ul li a:hover {
+    background:  rgb(150, 209, 181);
+    color: rgb(255, 255, 255);
+
+ }
+ ul li a:active{
+    background:  rgb(124, 206, 167);
+ }
+ ul li a:current {
+    background-color: blueviolet;
+ }
+
+ .footer table {
+    text-align: justify;
+    margin-left: 100px;
+    padding: 5px;
+ }
+ .footer table a{
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+ }
+ .footer table th {
+    width: 300px;
+
+ }
+
+ .q1 {
+    color: rgb(68, 66, 66);
+    display: flex;
+    width: 900px;
+    text-align: left;
+    background-color: rgba(185, 248, 248, 0.253);
+ }
+ .q1 h2{
+    color: rgb(28, 75, 75);
+ }
+ .q2 h2{
+    color: rgb(28, 75, 61);
+ }
+ .q2 div {
+    border: solid 5px white;
+    width: 400px;
+ }
+ .q1 div {
+    width: 400px;
+    border: solid 5px white;
+ }
+ .q2 {
+    color: rgb(68, 66, 66);
+    text-align: left;
+    margin-top: 10px;
+    width: 900px;
+    display: flex;
+    background-color: rgba(185, 248, 248, 0.253);
+ }
+.agenda table th{
+    width: 400px;
+    text-align: center;
+    background-color: rgb(66, 95, 95);
+    color: aliceblue;
+}   
+.agenda table tr{
+    text-align: center;
+    color: rgb(58, 57, 57);
+}   
+.agenda table tr:nth-child(even) td {
+    background-color: rgb(170, 235, 235);
+}
+
+.agenda table td{
+    color: rgb(28, 75, 75);
+}  
+
+
+/* AREA FORMULARIO*/
+#area
+{
+    color: rgb(30, 51, 48);
+  position:relative;
+  left:40%;
+  top:-40%;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+fieldset
+{
+  width:310px;
+  height:290px;
+  border-style: dotted;
+  border-color: rgba(55, 100, 85, 0.349);
+}
+
+legend
+{
+  font-style:bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+
+
+#formulario input.campo_nome
+{
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_assunto
+{
+  position:absolute;
+  left:95px;
+  top:100px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  position:absolute;
+  left:95px;
+  margin-top:1px;
+  width:225px;
+}
+#area .btn_submit {
+    background-color: rgba(42, 122, 85, 0.795);
+    color: #f1f1f1;
+}
+#area .btn_submit:hover {
+    background-color: rgba(62, 139, 103, 0.795);
+    color: rgba(51, 49, 49, 0.788);
+    cursor: pointer;
+}
+#area .btn_limpar {
+    background-color: rgba(42, 122, 85, 0.795);
+    color: #f1f1f1;
+}
+#area .btn_limpar:hover {
+    background-color: rgba(62, 139, 103, 0.795);
+    color: rgba(51, 49, 49, 0.788);
+    cursor: pointer;
+}
